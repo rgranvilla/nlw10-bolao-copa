@@ -1,5 +1,5 @@
 import Fastify from "fastify";
-import { prisma, PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient({
   log: ["query"],
