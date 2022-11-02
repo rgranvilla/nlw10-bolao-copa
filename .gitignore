@@ -16,7 +16,7 @@ coverage
 node_modules/
 
 # Optional eslint cache
-node_modules
+
 .env
 .env.local
 .webpack/
