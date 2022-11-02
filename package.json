@@ -1,6 +1,17 @@
 {
   "name": "nlw10-server",
+  "author": "Ricardo Granvilla Oliveira",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx src/server.ts"
+  },
+  "devDependencies": {
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "fastify": "^4.9.2"
+  }
 }
